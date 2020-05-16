@@ -1,0 +1,74 @@
+body{
+  margin:0; padding:0;
+}
+ul{
+  display:inline-block;
+  font-family: 맑은 고딕;
+  color:white;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration:none;
+  display:block;
+}
+a:link{
+  color:white;
+}
+a:hover{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a:active{
+  color:white;
+}
+.main>li{
+  list-style:none;
+  float: left;
+  width:20%;
+  height:60px;
+  line-height:60px;
+  text-align:center;
+  background:#999999;
+}
+#none{
+  background:#999999;
+}
+.main>li:hover{
+  background:#666666;
+  cursor:pointer;
+}
+.main>li:hover .sub{
+  display:block;
+  cursor:pointer;
+}
+.main .sub{
+  list-style:none;
+  top:60px;
+  width:100%;
+  display:none;
+}
+.main .sub li{
+  background:rgba(99,99,99, 0.9);
+
+}
+.main .sub li:hover{
+  background:rgba(80,80,80, 0.9);
+}
+div>img{
+  position:absolute;
+  left:50px;
+  top:100px;
+  z-index: -1;
+  border-radius:10%;
+}
+.main >li>a>img{
+  padding-top: 0;
+}
+div{
+  margin-left:500px;
+  padding-top:120px;
+}
