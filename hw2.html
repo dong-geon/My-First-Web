@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>HW2 - 메뉴바 만들기</title>
+		<style type="text/css">
+			.edge{margin:0;}
+			ul{
+				color:white;
+				width:100%;
+				padding-inline-start:0;
+			}
+			.main>li{
+				list-style:none;
+				display:block;
+				float:left;
+				width:20%;
+				height:40px;
+				line-height:40px;
+				text-align:center;
+				background:#999999;
+			}
+			.main>li:hover{
+				background:#666666;
+			}
+			.main>li:hover .sub{
+				display:block;
+			}
+			.main .sub{
+				top:40px;
+				width:100%;
+				display:none;
+			}
+			.main .sub li{
+				background:#999999;
+			}
+			.main .sub li:hover{
+				background:#CCCCCC
+			}
+			
+		</style>
+	</head>
+	<body class="edge">
+		<ul class="main">
+			<li>프론트팀
+				<ul class="sub">
+					<li>소개</li>
+				</ul>
+			</li>
+			<li>임효진
+				<ul class="sub">
+					<li>팀장</li>
+					<li>컴퓨터정보공학부</li>
+				</ul>
+			</li>
+			<li>김동건
+				<ul class="sub">
+					<li>팀원</li>
+					<li>학부장</li>
+				</ul>
+			</li>
+			<li>한주연
+				<ul class="sub">
+					<li>팀원</li>
+					<li>팬 임원</li>
+				</ul>
+			</li>
+			<li>안승현
+				<ul class="sub">
+					<li>팀원</li>
+					<li>새내기</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
